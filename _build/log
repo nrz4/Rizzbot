@@ -1,0 +1,121 @@
+# dune exec gui/robot.exe
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /Users/marcdavila/Downloads/3110_Project-main_2
+# Auto-detected concurrency: 8
+$ /Users/marcdavila/.opam/cs3110-2023fa/bin/ocamlc.opt -config > /var/folders/jj/2bbx_y2s7lx0bcllbsqfw33w0000gn/T/dune_0526ad_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; ocaml_bin = External "/Users/marcdavila/.opam/cs3110-2023fa/bin"
+#  ; ocaml = Ok External "/Users/marcdavila/.opam/cs3110-2023fa/bin/ocaml"
+#  ; ocamlc = External "/Users/marcdavila/.opam/cs3110-2023fa/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok External "/Users/marcdavila/.opam/cs3110-2023fa/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok External "/Users/marcdavila/.opam/cs3110-2023fa/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok External "/Users/marcdavila/.opam/cs3110-2023fa/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "/Users/marcdavila/.opam/cs3110-2023fa/lib/ocaml:/Users/marcdavila/.opam/cs3110-2023fa/lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "/Users/marcdavila/.opam/cs3110-2023fa/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/Users/marcdavila/Downloads/3110_Project-main_2"
+#        ; "INSIDE_DUNE" :
+#            "/Users/marcdavila/Downloads/3110_Project-main_2/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/marcdavila/Downloads/3110_Project-main_2/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/marcdavila/Downloads/3110_Project-main_2/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/marcdavila/Downloads/3110_Project-main_2/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths =
+#      [ External "/Users/marcdavila/.opam/cs3110-2023fa/lib/ocaml"
+#      ; External "/Users/marcdavila/.opam/cs3110-2023fa/lib"
+#      ]
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "5.0.0"
+#      ; standard_library_default =
+#          "/Users/marcdavila/.opam/cs3110-2023fa/lib/ocaml"
+#      ; standard_library = "/Users/marcdavila/.opam/cs3110-2023fa/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-pthread" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-pthread"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "arm64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "cc"; "-c"; "-Wno-trigraphs" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "aarch64-apple-darwin21.6.0"
+#      ; target = "aarch64-apple-darwin21.6.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X032"
+#      ; cmi_magic_number = "Caml1999I032"
+#      ; cmo_magic_number = "Caml1999O032"
+#      ; cma_magic_number = "Caml1999A032"
+#      ; cmx_magic_number = "Caml1999Y032"
+#      ; cmxa_magic_number = "Caml1999Z032"
+#      ; ast_impl_magic_number = "Caml1999M032"
+#      ; ast_intf_magic_number = "Caml1999N032"
+#      ; cmxs_magic_number = "Caml1999D032"
+#      ; cmt_magic_number = "Caml1999T032"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/marcdavila/.opam/cs3110-2023fa/bin/ocamlopt.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -I gui/.robot.eobjs/byte -I gui/.robot.eobjs/native -I /Users/marcdavila/.opam/cs3110-2023fa/lib/bigarray-compat -I /Users/marcdavila/.opam/cs3110-2023fa/lib/bogue -I /Users/marcdavila/.opam/cs3110-2023fa/lib/bytes -I /Users/marcdavila/.opam/cs3110-2023fa/lib/cairo2 -I /Users/marcdavila/.opam/cs3110-2023fa/lib/ctypes -I /Users/marcdavila/.opam/cs3110-2023fa/lib/graphics -I /Users/marcdavila/.opam/cs3110-2023fa/lib/integers -I /Users/marcdavila/.opam/cs3110-2023fa/lib/lablgtk3 -I /Users/marcdavila/.opam/cs3110-2023fa/lib/ocaml/str -I /Users/marcdavila/.opam/cs3110-2023fa/lib/ocaml/threads -I /Users/marcdavila/.opam/cs3110-2023fa/lib/ocaml/unix -I /Users/marcdavila/.opam/cs3110-2023fa/lib/stdlib-shims -I /Users/marcdavila/.opam/cs3110-2023fa/lib/tsdl -I /Users/marcdavila/.opam/cs3110-2023fa/lib/tsdl-image -I /Users/marcdavila/.opam/cs3110-2023fa/lib/tsdl-ttf -intf-suffix .ml -no-alias-deps -opaque -o gui/.robot.eobjs/native/dune__exe__Robot.cmx -c -impl gui/robot.ml)
+$ (cd _build/default && /Users/marcdavila/.opam/cs3110-2023fa/bin/ocamlopt.opt -w +a-4-6-7-9-27-29-30-32..42-44-45-48-50-60-66..70 -warn-error -a+31 -g -o gui/robot.exe /Users/marcdavila/.opam/cs3110-2023fa/lib/ocaml/str/str.cmxa /Users/marcdavila/.opam/cs3110-2023fa/lib/bigarray-compat/bigarray_compat.cmxa /Users/marcdavila/.opam/cs3110-2023fa/lib/stdlib-shims/stdlib_shims.cmxa /Users/marcdavila/.opam/cs3110-2023fa/lib/integers/integers.cmxa -I /Users/marcdavila/.opam/cs3110-2023fa/lib/integers /Users/marcdavila/.opam/cs3110-2023fa/lib/ctypes/ctypes.cmxa -I /Users/marcdavila/.opam/cs3110-2023fa/lib/ctypes /Users/marcdavila/.opam/cs3110-2023fa/lib/ocaml/unix/unix.cmxa /Users/marcdavila/.opam/cs3110-2023fa/lib/ocaml/threads/threads.cmxa /Users/marcdavila/.opam/cs3110-2023fa/lib/ctypes/ctypes-foreign.cmxa -I /Users/marcdavila/.opam/cs3110-2023fa/lib/ctypes /Users/marcdavila/.opam/cs3110-2023fa/lib/tsdl/tsdl.cmxa -I /Users/marcdavila/.opam/cs3110-2023fa/lib/tsdl /Users/marcdavila/.opam/cs3110-2023fa/lib/tsdl-image/tsdl_image.cmxa /Users/marcdavila/.opam/cs3110-2023fa/lib/tsdl-ttf/tsdl_ttf.cmxa /Users/marcdavila/.opam/cs3110-2023fa/lib/bogue/bogue.cmxa /Users/marcdavila/.opam/cs3110-2023fa/lib/graphics/graphics.cmxa -I /Users/marcdavila/.opam/cs3110-2023fa/lib/graphics /Users/marcdavila/.opam/cs3110-2023fa/lib/cairo2/cairo.cmxa -I /Users/marcdavila/.opam/cs3110-2023fa/lib/cairo2 /Users/marcdavila/.opam/cs3110-2023fa/lib/lablgtk3/lablgtk3.cmxa -I /Users/marcdavila/.opam/cs3110-2023fa/lib/lablgtk3 gui/.robot.eobjs/native/dune__exe__Robot.cmx)
